@@ -19,9 +19,8 @@ def find_max_value(array)
     
       counter = 0
       max = 0
-    while array[counter] do
-      max = array[counter] if array[counter] > max
-        counter += 1
+    array.each do |num|
+      max = num if num > max
     end
     max
 end
