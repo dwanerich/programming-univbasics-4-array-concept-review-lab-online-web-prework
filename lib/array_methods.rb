@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
   counter = 0
   
   array.each do |num|
-    return num if value_to_find == array[counter]
+    return num if value_to_find == array(value_to_find)
       counter += 1
     end
 end
