@@ -7,10 +7,10 @@ def find_element_index(array, value_to_find)
  
   counter = 0
   
-  while array[counter] do
-    return counter if array[counter] == value_to_find
-    counter += 1
-  end
+  array.each do |num|
+    return num if value_to_find == num
+      counter += 1
+    end
 end
  
 
