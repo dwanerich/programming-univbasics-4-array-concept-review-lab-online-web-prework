@@ -9,6 +9,8 @@ def find_element_index(array, value_to_find)
   
   if array[counter] == value_to_find
     return counter
+  else
+    puts "try again"
   end
 end
  
